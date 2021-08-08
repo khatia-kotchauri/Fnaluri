@@ -1,0 +1,694 @@
+
+#iasha {
+	color: transparent;
+}
+#ero {
+	color: transparent;
+}
+
+body{
+	/*height: 6300px;*/
+	width: 1900px;
+	/*border: solid;*/
+	box-sizing: border-box;
+	/*border-color: black;*/
+}
+header {
+	background-color: white;
+	box-sizing: border-box;
+	height: 75px;
+	width: 1900px;
+	position: fixed;
+	top: 0;
+	z-index: 20;
+}
+
+                           /*/პირველი ნაწილი/*/
+
+.menu {
+	display: inline-block;
+	margin-right: 30px;	
+
+}
+.a-menu{
+	text-decoration: none;
+	color: black;
+	font-size: 19px;
+}
+.menu-par {
+	margin-left: 1300px;
+	padding-top: 25px;
+
+}
+.menu-siaxle {
+	display: inline-block;
+	background-color: white;
+	width: 120px;
+	height: 45px;
+	padding-top: 12px;
+	color: black;
+	text-align: center;
+	box-sizing: border-box;
+	border: solid;
+	border-width: 2px;
+
+}
+
+.menu-siaxle:hover {
+
+	display: inline-block;
+	background-color:black;
+	width: 120px;
+	height: 45px;
+	padding-top: 12px;
+	color: white;
+	text-align: center;
+	box-sizing: border-box;
+	border: solid;
+	border-width: 2px;
+	transition-duration: 0.8s;
+	
+} 
+
+.geo {
+	height: 70px;
+	position: absolute;
+	top: 0;
+}
+.banerp {
+
+}
+
+.baner {
+	width: 1900px; 
+	/*z-index: 1; */
+	position: relative;
+
+}
+.banertext {
+	font-size: 30px;
+	position: absolute;
+	top: 0;
+	/*z-index: 2;*/
+	margin-top: 200px;
+	margin-left: 30px;
+}
+.banertext2 {
+	position: absolute;
+	top: 0;
+	/*z-index: 2;*/
+	margin-top: 400px;
+	margin-left: 25px;
+	font-size: 22px;
+}
+.span1 {
+	margin-left: 100px;
+
+}
+.isari {
+	width: 40px;
+	position: absolute;
+	top: 0;
+	/*z-index: 2;*/
+	margin-top: 500px;
+	margin-left:250px;
+}
+.span2 {
+	margin-left: 150px;
+}
+
+                                /*/მეორე ნაწილი/*/
+
+.tbilisi {
+	margin-left: 400px;
+	margin-top: 90px;
+	display: inline-block;
+}
+
+.uaz {
+
+	vertical-align: top;
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.tbilisi-text {
+	
+	vertical-align: top;
+	margin-top: 80px;
+	font-size: 40px;
+	margin-left: 30px;
+
+}
+.tbilisi-text2 {
+	
+	vertical-align: top;
+	width: 500px; 
+	margin-top: 20px;
+	font-size: 16px;
+	margin-left: 30px;
+	line-height: 1.6;
+
+}
+.ss {
+
+	text-decoration: none;
+}
+.meti {
+	background-color: black;
+	height: 50px;
+	width: 180px;
+	margin-top: 35px;
+	margin-left: 30px;
+	text-align: center;
+	padding-top: 25px;
+	font-size: 22px;
+	border: solid;
+	border-color: black;
+	color: white;
+
+
+}
+.meti:hover {
+	background-color: white;
+	height: 50px;
+	width: 180px;
+	margin-top: 35px;
+	margin-left: 30px;
+	text-align: center;
+	padding-top: 25px;
+	font-size: 22px;
+	border: solid;
+	border-color: black;
+	color: black;
+	transition-duration: 0.7s;
+
+
+}
+
+                                     /*/მესამე ნაწილი/*/
+
+.gal {
+	margin-top: 20px;
+font-size: 16px;
+background-color:#c4c3c2 ;
+width: 150px;
+height: 30px;
+text-align: center;
+padding-top: 10px;
+margin-top: 150px;
+margin-left: 400px;
+vertical-align: top;
+display: block;
+
+}
+.mesame {
+	background-color: #f5f3f2;
+	box-sizing: border-box;
+	height: 1200px;
+	width: 1900px;
+	margin-top: 200px;
+
+}
+
+.saq-mxar {
+	vertical-align: top;
+	display: inline-block;
+	margin-left: 400px;
+	margin-top: 30px;
+	font-size: 30px;
+}
+
+
+
+.navi {
+	display: inline-block;
+	margin-left: 400px;
+    margin-top: 35px;
+    vertical-align: top;
+
+
+
+}
+.nav {
+	display: inline-block;
+	font-size: 16px;
+	color: black;
+	margin-left: 50px;
+
+}
+
+.kaxeti {
+	width: 100px;
+	box-sizing: border-box;
+	height: 30px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding-top: 6px;
+}
+
+.galerea {
+	margin-top: 50px;
+	margin-left: 350px;
+
+}
+
+/*.sur {
+	display: inline-block;
+	width: 350px;
+	margin-left:60px;
+	margin-top: 60px;
+}*/
+
+
+img.sur {
+    width: 100%;
+    transition: transform 0.4s ease;
+    transform-origin: 50% 50%;
+    z-index: 1;
+  }
+
+img.sur:hover{
+    transform: scale(1.1) ;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .zoom1 {
+  	margin-left: 40px;
+  	display: inline-block;
+  	overflow: hidden;
+  	width: 350px;
+  	margin-top: 40px;
+  }
+
+
+
+
+                                /*მეოთხე ნაწილი*/
+
+
+.myinvarebi {
+	vertical-align: top;
+	margin-top: 150px;
+	margin-left: 400px;
+
+}
+.saq-myinvarebi {
+	font-size: 30px;
+}
+
+.myinvar-text { 
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 30px;
+	width: 500px;
+	line-height: 1.6;
+}
+
+.procenti {
+	display: inline-block;
+	margin-left: 100px;
+	vertical-align: top;
+} 
+.enguri {
+	margin-bottom: 20px;
+} 
+.proc {
+	margin-left: 420px;
+}
+.xazi-enguri {
+	width: 600px;
+	height: 6px;
+	background-color:#f5f3f2;
+	margin-bottom: 15px;
+}
+
+.xazi1-enguri {
+	width: 42.22%;
+	color: black;
+	height: 3px;
+	background-color: black;
+}
+  
+
+
+
+
+.xazi-kodori {
+	width: 600px;
+	height: 6px;
+	background-color:#f5f3f2;
+	margin-bottom: 15px;
+}
+
+
+.xazi1-kodori {
+	width: 22.02%;
+	color: black;
+	height: 3px;
+	background-color: black;
+}
+
+
+
+.xazi-rioni {
+	width: 600px;
+	height: 6px;
+	background-color:#f5f3f2;
+	margin-bottom: 15px;
+}
+
+.xazi1-rioni {
+	width: 15.16%;
+	color: black;
+	height: 3px;
+	background-color: black;
+}
+
+
+
+                                   /*მეხუთე ნაწილი*/
+
+ .samzareulo {
+ 	margin-top: 200px;
+ 	width: 1900px;
+ 	position: relative;
+ }    
+
+ .samz-text {
+ 	/*display: inline-block;*/
+ 	position: absolute;
+ 	top: 0;
+ 	margin-top: 3450px;
+ 	width: 400px;
+ 	font-size: 22px;
+ 	line-height: 1.6;
+ 	margin-left: 400px;
+ 	height: 140px;
+ 	background-color: rgba(239, 239, 233, 0.31);
+
+ }                              
+
+
+                                 /*მეექვსე ნაწილი*/
+
+ 
+ .meeqvse {
+ 	background-color: #f5f3f2;
+	box-sizing: border-box;
+	height: 450px;
+	width: 1900px;
+	margin-top: 150px;
+
+ } 
+
+ .klientebi {
+ 	margin-left: 400px;
+ 	margin-top: 100px;
+
+ }          
+
+ .kerdzebi {
+ 	font-size: 30px;
+ 	margin-left: 400px;
+ 	vertical-align: top;
+ 	display: inline-block;
+ 	margin-top: 60px;
+ }      
+ .klienti{
+ 	display: inline-block;
+ 	width: 400px;
+ 	margin-left: 150px;
+ 	line-height: 1.6;
+ 	color: #4d4d4d;
+
+ }               
+
+ .ss {
+ 	color:#f5f3f2 ; 
+ }
+
+                          /*მეშვიდე ნაწილი*/
+
+.news {
+	margin-top: 200px;
+	margin-left: 400px;
+
+}                          
+.axali-ambebi1 {
+	margin-top: 30px;
+	font-size: 30px;
+}
+.axali-ambebi {
+	width: 120px;
+	height: 25px;
+	background-color: #ededed;
+	font-size: 17px;
+	text-align: center;
+	padding-top: 5px;
+
+}
+
+
+img.anbani{
+    width: 100%;
+    transition: transform 0.4s ease;
+    transform-origin: 50% 50%;
+    z-index: 1;
+  }
+
+img.anbani:hover{
+    transform: scale(1.1)  rotate(2deg);
+    width: 100%;
+    z-index: 1;
+  }
+
+  .zoom {
+  	overflow: hidden;
+  	width: 350px;
+  	margin-top: 30px;
+  }
+
+
+.anbani {
+	
+}
+.news-text {
+	margin-top: 20px;
+	width: 300px;
+	line-height: 1.6;
+	color: #2c899c;
+}
+.masala {
+	margin-top: 20px;
+	font-size: 10px;
+}
+
+.news-img {
+	display: inline-block;
+	margin-right: 40px;
+}
+a {
+	text-decoration: none;
+
+}
+
+                                           /*მერვე ნაწილი*/
+ 
+ .bolo-baneri {
+ 	position: relative;
+ 	margin-top: 200px;
+ }
+
+ .shatil {
+ 	z-index: 1;
+ 	width: 1900px;
+
+ }   
+
+ .dagvika {
+ 	margin-top: 509px;
+ 	margin-left: 800px;
+    top: 0;
+    z-index: 3;
+    position: absolute;
+	background-color: white;
+	width: 150px;
+	height: 45px;
+	padding-top: 12px;
+	color: black;
+	text-align: center;
+	box-sizing: border-box;
+	border: solid;
+	border-width: 2px;
+ }                           
+
+ .dagvika:hover {
+    top: 0;
+	background-color:black;
+	width: 150px;
+	height: 45px;
+	padding-top: 12px;
+	color: white;
+	text-align: center;
+	box-sizing: border-box;
+	border: solid;
+	border-width: 2px;
+	box-sizing: border-box;
+	border: solid;
+	border-width: 2px;
+	transition-duration: 0.8s;
+ }   
+
+ .informacia {
+ 	position: absolute;
+ 	top: 0;
+ 	font-size: 40px;
+ 	margin-top: 400px;
+ 	color: white;
+ 	margin-left: 500px;
+ }     
+
+
+
+
+
+
+                                                                /*კონტაქტები                                */
+
+  .himler {
+  	width: 1900px;
+  	height: 800px;
+  	background-color: #c4c3c2;
+
+  }
+ .kontaqti {
+ 	display: inline-block;
+ 	vertical-align: top;
+ }
+ .dagvi {
+ 	font-size: 30px;
+ 	margin-top: 200px;
+ 	margin-left: 60px;
+ }         
+
+ .email1 {
+ 	margin-left: 60px;
+ 	margin-top: 60px;
+ 	font-size: 30px;
+ } 
+
+ .email2 {
+ 	margin-left: 60px;
+ 	margin-top: 30px;
+ 	font-size: 22px;
+ }    
+
+ .insta { 
+ 	color: #fc03d3;
+
+ }                                                  
+
+  .tele { 
+  	color: #1c8a1f;
+
+  }
+  .mail-to {
+  	color: #1c638a;
+  }
+
+  .ruka {
+  	display: inline-block;
+  	margin-left: 200px;
+  	margin-top: 100px;
+  	vertical-align: top;
+  	
+
+
+  }
+  .ruka1 {
+  	width:1200px;
+  	height: 800px;
+  }
+
+  .mtavari {
+  	font-size: 25px;
+  	margin-left: 10px;
+  	margin-top: 10PX;
+  	width: 120PX;
+  	height: 32px;
+  	background-color: white;
+  	box-sizing: border-box;
+  	color: black;
+  	text-align: center;
+  	border: solid;
+  	border-width: 2px;
+
+  }
+
+
+
+                                             /*რეგისტრაცია*/
+
+
+ .registracia { 
+ 	font-size: 30px;
+  	margin-top: 90px;
+  	margin-left: 80px;
+  	width: 450px;
+  	height: 300px;
+  	background-color: #dceef5;
+  	color: #404547;
+  	padding-left: 20px;
+
+
+
+ }
+  .regi-p {
+  	color: #404547;
+  	border-radius: 5px;
+  	display: block;
+  	margin-top: 30px;
+  	width: 400px;
+  	height: 40px;
+  	font-size: 23px;
+  	border-color: #5b92a6;
+  	padding-left: 30px;
+
+  }
+
+  .shesvla { 
+  	font-size: 26px;
+  	margin-top: 20px;
+  	margin-left: 0px;
+  	background-color: #34baeb;
+  	height: 47px;
+  	width: 435px;
+    text-align: center;
+    color: white;
+    padding-top: 7px;
+    box-sizing: border-box;
+    border-radius: 5px;
+   }
+
+   .registracia2 { 
+ 	font-size: 30px;
+  	margin-top: 90px;
+  	margin-left: 80px;
+  	width: 450px;
+  	height: 430px;
+  	background-color: #daf5eb;
+  	color: #404547;
+  	padding-left: 20px;
+}
+
+.nature {
+	position: absolute;
+	top: 0;
+}
+
+.parents {
+	position: relative;
+} 
